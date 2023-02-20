@@ -13,9 +13,22 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@lmdb/lmdb-darwin-x64": "^2.7.8",
     "gatsby": "^5.5.0",
+    "gatsby-plugin-image": "^3.6.0",
+    "gatsby-plugin-react-helmet": "^6.6.0",
+    "gatsby-plugin-sass": "^6.6.0",
+    "gatsby-plugin-sharp": "^5.6.0",
+    "gatsby-remark-images": "^7.6.0",
+    "gatsby-remark-relative-images": "^2.0.2",
+    "gatsby-source-contentful": "^8.6.1",
+    "gatsby-source-filesystem": "^5.6.0",
+    "gatsby-transformer-remark": "^6.6.0",
+    "node-sass": "^8.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "sass": "^1.58.0"
   },
   "repository": {
     "type": "git",
@@ -23,5 +36,8 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
   }
 }
